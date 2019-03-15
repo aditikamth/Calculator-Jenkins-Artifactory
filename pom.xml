@@ -70,7 +70,7 @@
                    </goals>
                     <configuration>
                 <file>var/lib/jenkins/workspace/JenkinsJob53/target/CalculatorApp-0.0.1-SNAPSHOT.jar</file>
-                <url>http://54.211.185.235:8081/artifactory/libs-release-local</url>
+                <url></url>
                 <groupId>com.Calculator</groupId>
                 <artifactId>CalculatorApp</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
@@ -86,7 +86,7 @@
   <repository>
   <id>central</id>
         <name>ip-10-0-0-61.ec2.internal-releases</name>
-        <url>http://54.211.185.235:8081/artifactory/libs-release-local</url>
+        <url>http://54.211.185.235:8081/artifactory/releases</url>
   </repository>
   </repositories>
   
@@ -94,8 +94,13 @@
     <repository>
         <id>central</id>
         <name>ip-10-0-0-61.ec2.internal-releases</name>
-        <url>http://54.211.185.235:8081/artifactory/libs-release-local</url>
+        <url>http://54.211.185.235:8081/artifactory/releases</url>
     </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-10-0-0-61.ec2.internal-snapshots</name>
+        <url>http://54.211.185.235:8081/artifactory/releases</url>
+    </snapshotRepository>
 </distributionManagement>
 
 
