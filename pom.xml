@@ -90,8 +90,8 @@
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>snapshots</name>
-        <url>http://54.211.185.235:8081/artifactory/releases</url>
+        <name>snapshot</name>
+        <url>http://54.211.185.235:8081/artifactory/snapshot</url>
     </snapshotRepository>
 </distributionManagement>
 
