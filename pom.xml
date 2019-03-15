@@ -82,23 +82,15 @@
     </plugins>
   </build>
   
-  <repositories>
-  <repository>
-  <id>central</id>
-        <name>ip-10-0-0-61.ec2.internal-releases</name>
-        <url>http://54.211.185.235:8081/artifactory/releases</url>
-  </repository>
-  </repositories>
-  
   <distributionManagement>
     <repository>
         <id>central</id>
-        <name>ip-10-0-0-61.ec2.internal-releases</name>
+        <name>releases</name>
         <url>http://54.211.185.235:8081/artifactory/releases</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>ip-10-0-0-61.ec2.internal-snapshots</name>
+        <name>snapshots</name>
         <url>http://54.211.185.235:8081/artifactory/releases</url>
     </snapshotRepository>
 </distributionManagement>
