@@ -67,7 +67,7 @@
                   <goals>
                     <goal>deploy</goal>
                     <goal>deploy-file</goal>
-                   <goals>
+                   </goals>
                     <configuration>
                 <file>var/lib/jenkins/workspace/JenkinsJob53/target/CalculatorApp-0.0.1-SNAPSHOT.jar</file>
                 <url>http://54.211.185.235:8081/artifactory/libs-release-local</url>
